@@ -1,0 +1,10 @@
+@media (min-width: 1024px){
+    .sm\:pt-48 {
+        padding-top: 2.5rem;
+    }
+    
+    .sm\:pb-40 {
+        padding-bottom: 2.5rem;
+    }
+    
+}

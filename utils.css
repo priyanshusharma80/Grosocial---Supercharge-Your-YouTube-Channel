@@ -1,0 +1,14 @@
+
+
+.pb-32 {
+    padding-bottom: 2.5rem;
+}
+
+.pt-20 {
+    padding-top: 2.5rem;
+}
+
+.flexalign{
+    justify-content: center;
+    align-items: center;
+}
