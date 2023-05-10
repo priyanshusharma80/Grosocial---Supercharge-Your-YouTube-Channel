@@ -5,8 +5,8 @@ function Menu(e) {
 
   var typed = new Typed(".typed", {
     strings : ["Create!","Manage!" "Edit!", "Optimize!", "Grow!"],
-    typeSpeed: 300,
-    backSpeed: 300,
+    typeSpeed: 250,
+    backSpeed: 250,
     loop: true
   })
 
