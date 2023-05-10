@@ -4,7 +4,7 @@ function Menu(e) {
   }
 
   var typed = new Typed(".typed", {
-    strings : ["Create!", "Edit!", "Optimize!", "Grow!"],
+    strings : ["Create!","Manage!" "Edit!", "Optimize!", "Grow!"],
     typeSpeed: 500,
     backSpeed: 500,
     loop: true
