@@ -252,7 +252,18 @@
     <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white text-center" id="pricing">Results</h1>
   <span class="block h-1 w-36 rounded bg-yellow-500 mt-0 mb-4 text-center m-auto"></span>
 <!--     <iframe class="mx-auto w-full h-72 sm:w-1/2 sm:h-96" src="img/RESULTS PDF.pdf" allow="autoplay"></iframe> -->
-    <embed class="mx-auto w-full h-72 sm:w-1/2 sm:h-96" src="img/RESULTS PDF.pdf#toolbar=0" type="">
+<!--     <embed class="mx-auto w-full h-72 sm:w-1/2 sm:h-96" src="img/RESULTS PDF.pdf#toolbar=0" type=""> -->
+    <div id="viewer" class="mx-auto w-full h-72 sm:w-1/2 sm:h-96"></div>
+  <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+  <script>
+    const config = { 
+      documentId: 'fa30f92f-a1c7-4b5b-beac-a240fe74b8af',
+      darkMode: true, 
+    };
+    CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+      
+    });
+  </script>
   </section>
 
 
