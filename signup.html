@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+    <link rel="Shortcut Icon" href="img/Grosocial logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="formbold-form-wrapper">
+          <img src="img/grosocial-cropped.png" style="width: 500px; border-radius: 10px; margin-bottom: 10px">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="formbold-input-group">
+              <label for="name" class="formbold-form-label"> Name </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+                class="formbold-form-input"
+              />
+            </div>
+
+            <input type="hidden" name="access_key" value="5cbe6ef4-3b6b-4e61-a07c-e63f4884369b">
+      
+            <div class="formbold-input-group">
+              <label for="email" class="formbold-form-label"> Email </label>
+              <input
+                type="email"
+                name="lastname"
+                id="email"
+                placeholder="Enter your email"
+                class="formbold-form-input"
+              />
+            </div>
+      
+            <div class="formbold-input-group">
+              <label class="formbold-form-label">
+                Which service are you interested in?
+              </label>
+      
+              <select class="formbold-form-select" name="intersted services" id="interested services">
+                <option value="Student">Select</option>
+                <option value="Student">360° Youtube Management</option>
+                <option value="designer">Search Engine Optimization</option>
+                <option value="fullstack">Video Editing</option>
+              </select>
+            </div>
+      
+        
+            <div>
+              <label for="message" class="formbold-form-label">
+                Any Message? 
+              </label>
+              <textarea
+                rows="6"
+                name="message"
+                id="message"
+                placeholder="Type here..."
+                class="formbold-form-input"
+              ></textarea>
+            </div>
+      
+            <button class="formbold-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
